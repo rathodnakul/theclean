@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>theclean</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
    <!--nav-bar-->
@@ -35,13 +36,36 @@
    </nav>
 
     <!--home section-->
-    
-
-    <!--project section-->
-
-
+    <section>
+        <div class="container">
+          <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="images/img7.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/img6.png" alt=""></div>
+          <div class="swiper-slide"><img src="images/img3.webp" alt=""></div>
+          <div class="swiper-slide"><img src="images/img4.jpg" alt=""></div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        
+      </div>
+        </div>
+    </section>
 
    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script  src="index.js"></script>
 </body>
 </html>

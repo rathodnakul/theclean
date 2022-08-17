@@ -6,7 +6,7 @@
 body{
     width: 100%;
     max-width: 1400px;
-    display: inline;
+    display: initial;
     margin: auto;
     min-height: 100vh;
     background: #191919;
