@@ -146,7 +146,7 @@ body{
  }
  
  .slider-wrapper {
-     margin-top: 12vw;  
+     margin-top: 15vw;  
      margin-left: 08vw;}
  
  .slide-image {
@@ -215,10 +215,10 @@ body{
  }
  
  .arrows{
-     width: 3.5vw; 
-     margin-top: -5.8vw; 
-     margin-left: 72vw; 
-     position: relative;
+     width: 90vw; 
+     margin-top: -15.8vw; 
+     margin-left: 2vw; 
+     position: absolute;
  }
  .arrow {
      display: inline-block; 
@@ -255,3 +255,13 @@ body{
 
 
      /* slider section end */
+
+
+     /* descripption section starts */
+
+
+     .detail{
+        background-color: #fff;
+        margin-top: 150px;
+        
+     }
